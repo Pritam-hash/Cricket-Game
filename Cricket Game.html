@@ -1,0 +1,189 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Cricket Game</title>
+        <style>
+            .button{
+
+                padding: 45px;
+                align-items: center;
+                color: blue;
+                text-align: center;
+                line-height: 5px;
+                width:45px;
+                margin-inline: 15px;
+                font-style: italic;
+                position: center;
+                display: inline-flex;
+                
+                }
+
+            .image{
+
+                padding: 5px 3px 5px;
+                border-style: solid;
+                border-color: aqua;
+                border-width: 10px;
+                
+            }
+
+            #heading{
+
+                background-color: green;
+            }
+
+            body{
+
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1 id="heading">Cricket Game</h1>
+        <input type="image" src="bat.png" alt="Bat" width="100" height="50" class="image"/>
+        <input type="image" src="ball.jpg" alt="Ball" width="100" height="50" class="image">
+        <input type="image" src="cricket-stump.jpg" alt="Stumps" width="100" height="50" class="image"><br>
+        <button class="button" onclick="alert('You have chosen Bat'); 
+        let randomNumber=Math.random()*3;
+        let computerchoice;
+        if(randomNumber>0 && randomNumber<=1)
+        {
+            computerchoice='Bat';
+            //alert('Computer choice is Bat');
+
+    }
+    else if(randomNumber>1 && randomNumber<=2)
+    {
+
+        computerchoice='Ball';
+        //alert('Computer choice is Ball');
+    }
+    else
+    {
+
+        computerchoice='Stumps';
+        //alert('Computer choice is Stumps');
+
+
+    }
+
+    alert(`Computer choice is ${computerchoice}`);
+
+    if(computerchoice==='Ball')
+    {
+
+        alert('User Won');
+    }
+    else if (computerchoice==='Bat')
+    {
+
+        alert(`It's a Tie`);
+    }
+
+    else
+    {
+
+        alert(`Computer Won`);
+    }
+
+
+        
+        
+        ">Bat</button>
+        <button class="button" onclick="alert('You have chosen Ball'); 
+        let randomNumber=Math.random()*3;
+        let computerchoice;
+        if(randomNumber>0 && randomNumber<=1)
+        {
+            computerchoice='Bat';
+            //alert('Computer choice is Bat');
+
+    }
+    else if(randomNumber>1 && randomNumber<=2)
+    {
+
+        computerchoice='Ball';
+        //alert('Computer choice is Ball');
+    }
+    else
+    {
+
+        computerchoice='Stumps';
+        //alert('Computer choice is Stumps');
+
+
+    }
+
+    alert(`Computer choice is ${computerchoice}`);
+
+    if(computerchoice==='Ball')
+    {
+
+        alert(`It's a Tie`);
+    }
+    else if (computerchoice==='Bat')
+    {
+
+        alert(`Computer Won`);
+    }
+
+    else
+    {
+
+        alert(`User Won`);
+    }
+
+
+        
+        ">Ball</button>
+        <button class="button"   onclick="alert('You have chosen Stumps'); 
+        let randomNumber=Math.random()*3;
+        let computerchoice;
+        if(randomNumber>0 && randomNumber<=1)
+        {
+            computerchoice='Bat';
+            //alert('Computer choice is Bat');
+
+    }
+    else if(randomNumber>1 && randomNumber<=2)
+    {
+
+        computerchoice='Ball';
+        //alert('Computer choice is Ball');
+    }
+    else
+    {
+
+        computerchoice='Stumps';
+        //alert('Computer choice is Stumps');
+
+
+    }
+
+    alert(`Computer choice is ${computerchoice}`);
+
+    if(computerchoice==='Ball')
+    {
+
+        alert('Computer Won');
+    }
+    else if (computerchoice==='Bat')
+    {
+
+        alert(`User Won`);
+    }
+
+    else
+    {
+
+        alert(`It's a Tie`);
+    }
+
+
+         
+        ">Stump</button>
+        
+    </body>
+    </html>
